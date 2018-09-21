@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80304BD22161B8D8007BAAE3 /* AAAACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80304BD12161B8D8007BAAE3 /* AAAACell.m */; };
 		80418FC920E4C493004CE5A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80418FC820E4C493004CE5A4 /* AppDelegate.m */; };
 		80418FCC20E4C493004CE5A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80418FCB20E4C493004CE5A4 /* ViewController.m */; };
 		80418FCF20E4C493004CE5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80418FCD20E4C493004CE5A4 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		80418FD720E4C495004CE5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80418FD620E4C495004CE5A4 /* main.m */; };
 		80418FE120E4C495004CE5A4 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80418FE020E4C495004CE5A4 /* TestTests.m */; };
 		80418FEC20E4C495004CE5A4 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80418FEB20E4C495004CE5A4 /* TestUITests.m */; };
+		80418FFC20E4C598004CE5A4 /* home_hot_recomment_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80418FFB20E4C598004CE5A4 /* home_hot_recomment_share@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80304BD02161B8D8007BAAE3 /* AAAACell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAACell.h; sourceTree = "<group>"; };
+		80304BD12161B8D8007BAAE3 /* AAAACell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAACell.m; sourceTree = "<group>"; };
 		80418FC420E4C493004CE5A4 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80418FC720E4C493004CE5A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80418FC820E4C493004CE5A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		80418FE720E4C495004CE5A4 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80418FEB20E4C495004CE5A4 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		80418FED20E4C495004CE5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80418FFB20E4C598004CE5A4 /* home_hot_recomment_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_hot_recomment_share@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		80418FC620E4C493004CE5A4 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				80418FFB20E4C598004CE5A4 /* home_hot_recomment_share@3x.png */,
 				80418FC720E4C493004CE5A4 /* AppDelegate.h */,
 				80418FC820E4C493004CE5A4 /* AppDelegate.m */,
 				80418FCA20E4C493004CE5A4 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				80418FD220E4C494004CE5A4 /* LaunchScreen.storyboard */,
 				80418FD520E4C495004CE5A4 /* Info.plist */,
 				80418FD620E4C495004CE5A4 /* main.m */,
+				80304BD02161B8D8007BAAE3 /* AAAACell.h */,
+				80304BD12161B8D8007BAAE3 /* AAAACell.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 				80418FD420E4C494004CE5A4 /* LaunchScreen.storyboard in Resources */,
 				80418FD120E4C494004CE5A4 /* Assets.xcassets in Resources */,
 				80418FCF20E4C493004CE5A4 /* Main.storyboard in Resources */,
+				80418FFC20E4C598004CE5A4 /* home_hot_recomment_share@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80418FCC20E4C493004CE5A4 /* ViewController.m in Sources */,
+				80304BD22161B8D8007BAAE3 /* AAAACell.m in Sources */,
 				80418FD720E4C495004CE5A4 /* main.m in Sources */,
 				80418FC920E4C493004CE5A4 /* AppDelegate.m in Sources */,
 			);
@@ -435,10 +445,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TKNY8FYFC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,10 +471,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TKNY8FYFC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
